@@ -127,7 +127,7 @@ public class Remotecontrollermod {
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
         if(!event.getServer().getWorld(World.OVERWORLD).isRemote){
-            String host = "localhost";
+            String host = "0.0.0.0";
 
             // Start WebSocket Server
             //        int port = 53199;
